@@ -1,7 +1,7 @@
 {
   "name": "Should I Buy This?",
   "version": "1.0.0",
-  "description": "Can't decided whether you want to buy a thing? Get an instant yes/no decision!",
+  "description": "Can't decide whether you want to buy a thing? Get an instant yes/no decision!",
   "manifest_version": 3,
   "author": "James Barnes",
   "action": {
