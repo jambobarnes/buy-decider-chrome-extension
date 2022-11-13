@@ -8,14 +8,6 @@
     "default_popup": "index.html",
     "default_title": "Should I Buy This?"
   },
-  "permissions": [
-    "tabs",
-    "activeTab"
-  ],
-  "host_permissions": [
-    "http://*/*",
-    "https://*/*"
-  ],
   "icons": {
     "48": "icon48.png",
     "128": "icon128.png"
