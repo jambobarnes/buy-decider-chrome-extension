@@ -10,6 +10,8 @@ async function fetchData() {
 
   console.log('record', record)
 
+  document.getElementById("answer").innerHTML = record.answer
+
 }
 
 fetchData();
