@@ -3,7 +3,7 @@ function randomInteger(min, max) {
 }
 
 async function fetchData() {
-  
+
   const apiUrl = "https://yesno.wtf/api"
   const options = {
     method: 'GET'
@@ -11,8 +11,6 @@ async function fetchData() {
 
   const res = await fetch(apiUrl, options)
   const record = await res.json();
-
-  console.log('record', record)
 
   const negativeResponses = [
     "No, put your credit card down!",
@@ -55,10 +53,10 @@ async function fetchData() {
   } else {
 
     response = negativeResponses[index]
-    
+
   }
 
-  document.getElementById("answer").innerHtml = response
+  document.getElementById("answer").innerHTML = response
   document.getElementById("image").src = record.image
 
 }

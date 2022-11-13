@@ -1,11 +1,19 @@
 {
-  "name": "Should I buy this?",
+  "name": "Should I Buy This?",
   "version": "1.0.0",
-  "description": "Can't decided whether to buy something you're looking at? A bit of e-guilt bulding up? Take the pressure off yourself with our buy decider extension: get a simple yes or no answer to help ease your purchasing decision!",
+  "description": "Can't decided whether you want to buy a thing? Get an instant yes/no decision!",
   "manifest_version": 3,
   "author": "James Barnes",
   "action": {
     "default_popup": "index.html",
-    "default_title": "Should I buy this?"
-  } 
+    "default_title": "Should I Buy This?"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
 }
